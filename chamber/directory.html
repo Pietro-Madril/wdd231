@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Directory page of Chamber of Commerce">
+    <meta name="author" content="Your Name">
+    
+    <!-- Social media meta tags -->
+    <meta property="og:title" content="Chamber of Commerce Directory">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/social-image.jpg">
+    <meta property="og:url" content="https://example.com/directory.html">
+
+    <title>Chamber of Commerce Directory</title>
+    <link rel="icon" href="images/favicon.ico">
+    
+    <!-- Normalize.css for reset -->
+    <link rel="stylesheet" href="css/normalize.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script defer src="js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Chamber of Commerce</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Member Directory</h2>
+            <div class="view-toggle">
+                <button id="gridView">Grid View</button>
+                <button id="listView">List View</button>
+            </div>
+            <div id="members" class="grid-view">
+                <!-- Member cards will be inserted here via JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contact us at: contact@example.com | Phone: (555) 555-5555</p>
+        <p>&copy; <span id="year"></span> | WDD 231 Project | Last updated: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>
