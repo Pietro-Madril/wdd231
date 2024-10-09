@@ -2,27 +2,15 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/chamber.css">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Directory page of Chamber of Commerce">
-    <meta name="author" content="Your Name">
-    
-    <!-- Social media meta tags -->
-    <meta property="og:title" content="Chamber of Commerce Directory">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="images/social-image.jpg">
-    <meta property="og:url" content="https://example.com/directory.html">
-
-    <title>Chamber of Commerce Directory</title>
+    <meta name="description" content="This page is written by Pietro Motta Madril in the WDD231 - Web Frontend Development I at BYU-Idaho. The purpose of this page is to apply the principles of HTML, CSS, and JavaScript learned during the course.">
+    <meta name="author" content="Pietro Motta Madril">
     <link rel="icon" href="images/favicon.ico">
-    
-    <!-- Normalize.css for reset -->
-    <link rel="stylesheet" href="css/normalize.css">
-    
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/styles.css">
 
-    <script defer src="js/script.js"></script>
+    <title>Santa Maria Chamber of Commerce</title>
+    <script defer src="scripts/chamber.js"></script>
 </head>
 
 <body>
@@ -40,20 +28,44 @@
 
     <main>
         <section>
-            <h2>Member Directory</h2>
             <div class="view-toggle">
                 <button id="gridView">Grid View</button>
                 <button id="listView">List View</button>
             </div>
             <div id="members" class="grid-view">
-                <!-- Member cards will be inserted here via JavaScript -->
+                <div class="card-box">
+                    <h3>Valley Cafe</h3>
+                    <p>A local coffee shop that serves the finest brews.</p>
+                    <p>Contact: 123-456-7890</p>
+                    <p>Address: 123 Coffee Lane</p>
+                </div>
+                <div class="card-box">
+                    <h3>Leaf Boutique</h3>
+                    <p>A boutique selling handmade crafts and gifts.</p>
+                    <p>Contact: 987-654-3210</p>
+                    <p>Address: 456 Craft Road</p>
+                </div>
+                <div class="card-box">
+                    <h3>Green Farm</h3>
+                    <p>Your local provider of fresh produce.</p>
+                    <p>Contact: 555-123-4567</p>
+                    <p>Address: 789 Farm Ave</p>
+                </div>
+                <div class="card-box">
+                    <h3>Blue Tech</h3>
+                    <p>Leading tech solutions for your business.</p>
+                    <p>Contact: 111-222-3333</p>
+                    <p>Address: 321 Tech Street</p>
+                </div>
+            </div>
+            
             </div>
         </section>
     </main>
 
     <footer>
-        <p>Contact us at: contact@example.com | Phone: (555) 555-5555</p>
-        <p>&copy; <span id="year"></span> | WDD 231 Project | Last updated: <span id="lastModified"></span></p>
+        <p>&copy; <span id="currentyear"></span> Pietro Motta Madril, Brazil</p>
+        <p id="lastModified"></p>
     </footer>
 </body>
 

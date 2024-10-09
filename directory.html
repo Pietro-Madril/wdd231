@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles/chamber.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="This page is written by Pietro Motta Madril in the WDD231 - Web Frontend Development I at BYU-Idaho. The purpose of this page is to apply the principles of HTML, CSS, and JavaScript learned during the course.">
+    <meta name="author" content="Pietro Motta Madril">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="WDD 231 - Web Frontend Development I - Pietro Motta Madril">
+    <meta property="og:image" content="https://pietro-madril.github.io/wdd231/images/riogrande.jpg">
+    <meta property="og:url" content="https://pietro-madril.github.io/wdd231/">
+    <link rel="icon" href="images/favicon.ico">
+
+    <title>Santa Maria Chamber of Commerce</title>
+    <script defer src="scripts/chamber.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Chamber of Commerce</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Member Directory</h2>
+            <div class="view-toggle">
+                <button id="gridView">Grid View</button>
+                <button id="listView">List View</button>
+            </div>
+            <div id="members" class="grid-view">
+                <!-- Member cards will be inserted here via JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"> </span> Pietro Motta Madril, Brazil</p>
+        <p id="lastModified"> </p>
+    </footer>
+</body>
+
+</html>

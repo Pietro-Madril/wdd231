@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Valley Cafe",
+        "description": "A local coffee shop that serves the finest brews.",
+        "contact": "123-456-7890",
+        "address": "123 Coffee Lane"
+    },
+    {
+        "name": "Leaf Boutique",
+        "description": "A boutique selling handmade crafts and gifts.",
+        "contact": "987-654-3210",
+        "address": "456 Craft Road"
+    },
+    {
+        "name": "Green Farm",
+        "description": "Your local provider of fresh produce.",
+        "contact": "555-123-4567",
+        "address": "789 Farm Ave"
+    },
+    {
+        "name": "Blue Tech",
+        "description": "Leading tech solutions for your business.",
+        "contact": "111-222-3333",
+        "address": "321 Tech Street"
+    }
+]
