@@ -7,7 +7,7 @@ document.querySelector('.hamburger').addEventListener('click', () => {
     document.querySelector('nav ul').classList.toggle('show');
 });
 async function fetchMembers() {
-    const response = await fetch('members.json');
+    const response = await fetch('data/members.json');
     if (!response.ok) {
         throw new Error('Network response was not ok');
     }
