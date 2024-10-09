@@ -54,3 +54,5 @@ async function renderListView() {
 document.getElementById('gridView').addEventListener('click', renderGridView);
 document.getElementById('listView').addEventListener('click', renderListView);
 renderGridView();
+
+d
