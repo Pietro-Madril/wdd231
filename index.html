@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Student Pietro Madril homepage for WDD 231 " />
+    <meta name="author" content="Your Name" />
+    <title>Pietro Motta Madril | WDD 231</title>
+    <link rel="stylesheet" href="styles/homepage.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto&display=swap" rel="stylesheet">
+    <script src="homepage.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <img src="images/profile-small.jpg" alt="Pietro Madril" width="100" height="100" />
+      <span>Pietro Motta Madril</span>
+    </header>
+  
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Chamber</a></li>
+        <li><a href="#">Final</a></li>
+        <li><a href="https://github.com/Pietro-Madril">GitHub Profile</a></li>
+        <li><a href="https://linkedin.com/in/pietro-madril">LinkedIn</a></li>
+      </ul>
+    </nav>
+  
+    <main>
+      <h1>Home</h1>
+      <section class="two-column">
+        <div class="card">
+          <h2>Course Work</h2>
+          <p>•</p>
+          <p>•</p>
+          <p>•</p>
+        </div>
+        <div class="card">
+          <h2>Santana do Livramento - RS, Brazil</h2>
+          <img src="images/palomas.jpg" alt="Palomas" width="400" height="300" />
+          <p>This is the "Cerro de Palomas", a wonderful place near the city. If we translate the name into english it would be like Paloma's Hill</p>
+        </div>
+      </section>
+    
+
+      <section class="certificate full-width">
+        <div class="card">
+          <h2>Web and Computer Programming Certificate</h2>
+          <div class="filters">
+            <button id="filter-all">All Courses</button>
+            <button id="filter-cse">CSE Courses</button>
+            <button id="filter-wdd">WDD Courses</button>
+          </div>
+          <p id="credit-total"></p>
+          <div class="course-grid"></div>
+        </div>
+      </section>
+    </main>
+    
+    <footer>
+      <script src="scripts/year.js" defer></script>
+      <p>&copy; <span id="currentyear"></span> Pietro Motta Madril - Brazil</p>
+      <p id="lastModified"></p>
+    </footer>
+
+  </body>
+</html>
