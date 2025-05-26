@@ -1,0 +1,60 @@
+{
+  "members": [
+    {
+      "name": "Valley Cafe",
+      "address": "123 Coffee Lane",
+      "phone": "123-456-7890",
+      "website": "https://valleycafe.com",
+      "icon": "placeholder.jpg",
+      "membership": "Gold"
+    },
+    {
+      "name": "Leaf Boutique",
+      "address": "456 Craft Road",
+      "phone": "987-654-3210",
+      "website": "https://leafboutique.com",
+      "icon": "placeholder.jpg",
+      "membership": "Silver"
+    },
+    {
+      "name": "Green Farm",
+      "address": "789 Farm Ave",
+      "phone": "555-123-4567",
+      "website": "https://greenfarm.com",
+      "icon": "placeholder.jpg",
+      "membership": "Bronze"
+    },
+    {
+      "name": "Blue Tech",
+      "address": "321 Tech Street",
+      "phone": "111-222-3333",
+      "website": "https://bluetech.com",
+      "icon": "placeholder.jpg",
+      "membership": "Silver"
+    },
+    {
+      "name": "City Library",
+      "address": "555 Book Lane",
+      "phone": "222-333-4444",
+      "website": "https://citylibrary.org",
+      "icon": "placeholder.jpg",
+      "membership": "Bronze"
+    },
+    {
+      "name": "Sunrise Fitness",
+      "address": "789 Health Blvd",
+      "phone": "333-444-5555",
+      "website": "https://sunrisefitness.com",
+      "icon": "placeholder.jpg",
+      "membership": "Gold"
+    },
+    {
+      "name": "Fresh Bites",
+      "address": "111 Market Street",
+      "phone": "444-555-6666",
+      "website": "https://freshbites.org",
+      "icon": "placeholder.jpg",
+      "membership": "Silver"
+    }
+  ]
+}
