@@ -1,15 +1,12 @@
-// Atualiza footer
 document.querySelector('#currentyear').textContent = new Date().getFullYear();
 document.querySelector('#lastModified').textContent = `Last Modified: ${document.lastModified}`;
 
-// Caminho para o JSON
-const memberUrl = "data/members.json";
 
-// Busca e renderiza os dados
+const memberUrl = "data/members.json";
 async function getMembers() {
   try {
     const response = await fetch(memberUrl);
-    if (!response.ok) throw new Error("Erro ao carregar membros");
+    if (!response.ok) throw new Error("Loading Error");
     const data = await response.json();
     displayMembers(data.members);
   } catch (error) {
@@ -17,10 +14,9 @@ async function getMembers() {
   }
 }
 
-// Exibe os membros no HTML
 function displayMembers(members) {
   const membersContainer = document.querySelector('#members');
-  membersContainer.innerHTML = ''; // Limpa antes de renderizar
+  membersContainer.innerHTML = '';
 
   members.forEach(member => {
     const card = document.createElement('div');
@@ -39,20 +35,17 @@ function displayMembers(members) {
   });
 }
 
-// Alternância de layout
 const gridButton = document.querySelector('#gridView');
 const listButton = document.querySelector('#listView');
 const membersContainer = document.querySelector('#members');
-
 gridButton.addEventListener('click', () => {
   membersContainer.classList.add('course-grid');
   membersContainer.classList.remove('course-list');
 });
-
 listButton.addEventListener('click', () => {
   membersContainer.classList.add('course-list');
   membersContainer.classList.remove('course-grid');
 });
 
-// Inicia
+
 getMembers();

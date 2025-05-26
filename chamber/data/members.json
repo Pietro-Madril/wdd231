@@ -1,58 +1,58 @@
 {
   "members": [
     {
-      "name": "Valley Cafe",
-      "address": "123 Coffee Lane",
+      "name": "Starlight Pastel",
+      "address": "123 Manduca Avenue, Palomas - RS",
       "phone": "123-456-7890",
-      "website": "https://valleycafe.com",
+      "website": "https://starlightpastel.com",
       "icon": "placeholder.jpg",
       "membership": "Gold"
     },
     {
-      "name": "Leaf Boutique",
-      "address": "456 Craft Road",
+      "name": "Leaf",
+      "address": "456 Manduca Avenue, Palomas - RS",
       "phone": "987-654-3210",
       "website": "https://leafboutique.com",
       "icon": "placeholder.jpg",
       "membership": "Silver"
     },
     {
-      "name": "Green Farm",
-      "address": "789 Farm Ave",
+      "name": "Sunrise Petshop",
+      "address": "789 Tamandaré Avenue, Palomas - RS",
       "phone": "555-123-4567",
-      "website": "https://greenfarm.com",
+      "website": "https://sunrisepetshop.com",
       "icon": "placeholder.jpg",
       "membership": "Bronze"
     },
     {
-      "name": "Blue Tech",
-      "address": "321 Tech Street",
-      "phone": "111-222-3333",
-      "website": "https://bluetech.com",
+      "name": "Hatenno's",
+      "address": "321 General Neto, Palomas - RS",
+      "phone": "783-147-8964",
+      "website": "https://hatennos.com",
       "icon": "placeholder.jpg",
       "membership": "Silver"
     },
     {
-      "name": "City Library",
-      "address": "555 Book Lane",
-      "phone": "222-333-4444",
-      "website": "https://citylibrary.org",
+      "name": "Candy River",
+      "address": "555 General Neto, Palomas - RS",
+      "phone": "365-789-3624",
+      "website": "https://candyriver.com",
       "icon": "placeholder.jpg",
       "membership": "Bronze"
     },
     {
-      "name": "Sunrise Fitness",
-      "address": "789 Health Blvd",
-      "phone": "333-444-5555",
-      "website": "https://sunrisefitness.com",
+      "name": "Sunshine Gaming",
+      "address": "789 Manduca Avenue, Palomas - RS",
+      "phone": "475-512-3652",
+      "website": "https://sunshinegaming.com",
       "icon": "placeholder.jpg",
       "membership": "Gold"
     },
     {
-      "name": "Fresh Bites",
+      "name": "Diamond Orb",
       "address": "111 Market Street",
-      "phone": "444-555-6666",
-      "website": "https://freshbites.org",
+      "phone": "741-493-9821",
+      "website": "https://diamondorb.com",
       "icon": "placeholder.jpg",
       "membership": "Silver"
     }
