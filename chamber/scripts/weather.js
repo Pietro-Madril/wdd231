@@ -1,9 +1,9 @@
-const highTemp = document.querySelector('#high-temp');
-const lowTemp = document.querySelector('#low-temp');
+const highTemp = document.querySelector('#highTemp');
+const lowTemp = document.querySelector('#lowTemp');
 const humidity = document.querySelector('#humidity');
 const sunrise = document.querySelector('#sunrise');
 const sunset = document.querySelector('#sunset');
-const forecastList = document.querySelector('#forecast-list');
+const forecastList = document.querySelector('#forecastList');
 const lat = -30.82;
 const lon = -55.35;
 const apiKey = "dc39d1c1178c8cce5c5377f1cad74046" ;
