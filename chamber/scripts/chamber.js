@@ -3,6 +3,7 @@ document.querySelector('#lastModified').textContent = `Last Modified: ${document
 
 
 const memberUrl = "data/members.json";
+
 async function getMembers() {
   try {
     const response = await fetch(memberUrl);
