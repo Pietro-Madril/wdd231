@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/chamber.css">
+    <link rel="stylesheet" href="styles/join.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Student Pietro Madril page for WDD231." />
+    <meta name="author" content="Pietro Motta Madril">
+    <link rel="icon" href="images/favicon.ico">
+    <meta property="og:title" content="Join Page for Palomas - Chamber of Commerce">
+    <meta property="og:description" content="Student Pietro Madril page for WDD231.">
+    <meta property="og:url" content="https://pietro-madril.github.io/wdd231/chamber/join.html">
+    <meta property="og:image" content="images/palomas.jpg"/>
+    <title>Palomas Chamber of Commerce</title>
+    <script defer src="scripts/join.js"></script>
+</head>
+<body>
+  <header>
+        <img src="images/palomas.jpg" alt="Palomas" width="100" height="100" />
+        <h1>Palomas - Chamber of Commerce</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="directory.html">Directory</a></li>
+      <li><a href="join.html" class="active">Join</a></li>
+      <li><a href="discover.html"> Discover</a></li>
+    </ul>
+  </nav>
+  <main class="join-page">
+    <section class="form-section">
+      <h2>Membership Application</h2>
+      <form method="get" action="thankyou.html">
+        <label>
+          First Name:
+          <input type="text" name="firstName" required title="First Name" autocomplete="given-name" />
+        </label>
+        <label>
+          Last Name:
+          <input type="text" name="lastName" required title="Last Name" autocomplete="family-name" />
+        </label>
+        <label>
+          Title in Organization:
+          <input type="text" name="orgTitle" title="Organization Title" autocomplete="organization-title"
+            pattern="[A-Za-z\-\s]{3,}" />
+        </label>
+        <label>
+          Email:
+          <input type="email" name="email" required title="Email" autocomplete="email" placeholder="example@mail.com" />
+        </label>
+        <label>
+          Mobile Phone:
+          <input type="tel" name="phone" required title="Phone Number" autocomplete="tel" />
+        </label>
+        <label>
+          Business/Organization Name:
+          <input type="text" name="organization" required title="Organization Name" autocomplete="organization" />
+        </label>
+        <label>
+          Membership Level:
+          <select name="membership" title="Membership Level">
+            <option value="np">NP Membership</option>
+            <option value="bronze">Bronze Membership</option>
+            <option value="silver">Silver Membership</option>
+            <option value="gold">Gold Membership</option>
+          </select>
+        </label>
+        <label>
+          Business Description:
+          <textarea name="description" title="Business Description"></textarea>
+        </label>
+        <input type="hidden" id="timestamp" name="timestamp" />
+        <input type="submit" value="Submit Application" />
+      </form>
+    </section>
+    <aside class="membership-cards">
+      <div class="card animate" id="np-card">
+        <h3>NP Membership</h3>
+        <p>Designed for non-profit organizations.
+        Includs access to networking events, basic listings in the directory, and free attendance at monthly meetings.</p>
+      </div>
+      <div class="card animate" id="bronze-card">
+        <h3>Bronze Membership</h3>
+        <p>Ideal for small businesses. Includes NP benefits plus access to training sessions and event promotions.</p>
+      </div>
+      <div class="card animate" id="silver-card">
+        <h3>Silver Membership</h3>
+        <p>Great for growing businesses. Includes Bronze benefits, enhanced presence and social media advertising support.</p>
+      </div>
+      <div class="card animate" id="gold-card">
+        <h3>Gold Membership</h3>
+        <p>Premium membership with maximum exposure. Includes all Silver benefits, homepage spotlight and top-tier event sponsorship opportunities.</p>
+      </div>
+    </aside>
+  </main>
+  <footer>
+    <p>&copy; <span id="currentyear"></span> Pietro Motta Madril, Brazil</p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+
+</html>

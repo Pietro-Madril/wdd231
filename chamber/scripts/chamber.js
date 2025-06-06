@@ -11,7 +11,7 @@ async function getMembers() {
     const data = await response.json();
     displayMembers(data.members);
   } catch (error) {
-    console.error("Erro no fetch:", error);
+    console.error("Error on fetch:", error);
   }
 }
 
