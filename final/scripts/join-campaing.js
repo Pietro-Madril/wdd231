@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
         card.innerHTML = `
           <h3>${event.name}</h3>
           <p><strong>Dungeon Master:</strong> ${event.dungeonmaster}</p>
-          <p><strong>System:</strong> <a href="${event.system}" target="_blank">${event.system}</a></p>
+          <p><strong>System:</strong> ${event.system}</p>
           <p>${event.about || "Without Information."}</p>
         `;
 
