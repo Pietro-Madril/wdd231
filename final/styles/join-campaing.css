@@ -1,0 +1,102 @@
+:root {
+  --primary-color: #060a0b;
+  --accent-color: #0e2366;
+  --text-color: #E2E7EC;
+  --backgroundg-light: #141E23;
+  --secondary-color: #eeeeee;
+  --box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  --border-radius: 10px;
+  --font-main: 'Roboto', sans-serif;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--backgroundg-light);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+#about-membership {
+  background-color: white;
+  color: black;
+  padding: 1.5rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.join-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+form,
+#events-container {
+  flex: 1 1 45%;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  color: black;
+}
+
+form label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: var(--border-radius);
+}
+
+form button {
+  margin-top: 1.5rem;
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.event-card {
+  background-color: white;
+  color: black;
+  padding: 1rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.event-card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  .join-container {
+    flex-direction: column;
+  }
+}

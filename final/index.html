@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/final.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Silver Fox Guild Website" />
+    <meta name="author" content="Pietro Motta Madril">
+    <link rel="icon" href="images/favicon.ico">
+    <meta property="og:title" content="Homepage for Silver Fox">
+    <meta property="og:description" content="Silver Fox Guild homepage">
+    <meta property="og:url" content="https://pietro-madril.github.io/wdd231/chamber/index.html.html">
+    <meta property="og:image" content="images/logo.jpg"/>
+  <title>Silver Fox Guild</title>
+  <script defer src="scripts/final-homepage.js"></script>
+  <script defer src="scripts/weather.js"></script>
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Palomas" width="100" height="100" />
+    <h1>Silver Fox Guild</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="events.html">Our Events</a></li>
+      <li><a href="join-campaing.html">Join Campaing</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section class="hero">
+      <img src="images/hero-placeholder.jpg" alt="Palomas" loading="lazy">
+    </section>
+    <section class="info-grid">
+     <section class="events">
+        <h2>About Us</h2>
+        <p>
+        "Welcome, adventurer! I hope you have a wonderful stay at our humble guild.
+        I trust you'll enjoy listening to the often overly fantastical tales of our grandmaster.
+        If you're looking for an adventure, take a look at the quests posted on our board.
+        I'm sure you'll find something that suits your taste." - Zéfir, the guild receptionist
+        </p>
+        <p>
+        The Silver Fox Guild is an original and independent project that aims to promote and bring together those who, like us,
+        are passionate about RPGs and fantasy stories. We have several campaigns running with our game masters, 
+        who share their ideas both with the general public and with our loyal guild members.
+        </p>
+      </section>    
+    </section>
+    <section class="info-grid">
+      <section class="weather">
+        <h2>Current Weather</h2>
+        <p>High: <span id="highTemp"></span></p>
+        <p>Low: <span id="lowTemp"></span></p>
+        <p>Humidity: <span id="humidity"></span></p>
+        <p>Sunrise: <span id="sunrise"></span></p>
+        <p>Sunset: <span id="sunset"></span></p>
+      </section>
+      <section class="forecast">
+        <h2>Weather Forecast</h2>
+        <ul id="forecastList"></ul>
+      </section>
+    </section>
+    <section class="spotlights">
+      <div class="spotlight-container" id="spotlightContainer"></div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; <span id="currentyear"></span> Pietro Motta Madril, Brazil</p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>

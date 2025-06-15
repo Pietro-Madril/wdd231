@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/final.css">
+    <link rel="stylesheet" href="styles/join-campaing.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Silver Fox Guild Website" />
+    <meta name="author" content="Pietro Motta Madril">
+    <link rel="icon" href="images/favicon.ico">
+    <meta property="og:title" content="Campaings page for Silver Fox">
+    <meta property="og:description" content="Silver Fox Guild campaings page">
+    <meta property="og:url" content="https://pietro-madril.github.io/wdd231/chamber/index.html.html">
+    <meta property="og:image" content="images/logo.jpg"/>
+  <title>Silver Fox Guild</title>
+    <script defer src="scripts/join-campaing.js"></script>
+</head>
+<body>
+  <header>
+  <img src="images/logo.png" alt="Silver Fox" width="100" height="100" />
+  <h1>Silver Fox Guild</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="events.html">Our Events</a></li>
+      <li><a href="join-campaing.html">Join Campaing</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="info-grid">
+      <section>
+        <h2>About Membership</h2>
+        <p>
+        Our Membership system is simply a way to rank our campaigns.
+        Our featured campaigns are proposed by our most experienced DMs (Dungeon Masters) and are sure to offer a deeper immersion into their narratives.
+        It also works as a priority list, since spots in each campaign are limited.Th e Bronze Tier is the most basic, granting entry to the general
+        public queue and access to campaign recordings. The Silver Tier offers the same benefits as the previous one,
+        with the addition of personalized content, including visual effects for your character.
+        The Gold Tier, the pinnacle of our campaigns, includes all previous benefits and gives you the right to receive
+        a physical version of your character, as well as exclusive physical items from the Gold Tier campaigns you participate in.
+        More information will be sent by email once you register.
+        </p>
+      </section>
+    </section>
+    <section class="info-grid">
+      <section>
+        <h2>SUbscribe for one of our campaing</h2>
+        <form action="#" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="characterName">Character Name:</label>
+          <input type="text" id="characterName" name="characterName" required>
+          <label for="characterClass">Character Class:</label>
+          <input type="text" id="characterClass" name="characterClass" required>
+          <label for="campaing">Campaing:</label>
+          <input type="text" id="campaing" name="campaing" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" required>
+          <label for="campaign">Campaign:</label>
+          <input type="text" id="campaign" name="campaign" required>
+          <label for="membership">Membership:</label>
+          <select id="membership" name="membership" required>
+            <option value="">Choose one</option>
+            <option value="Bronze">Bronze</option>
+            <option value="Silver">Silver</option>
+            <option value="Gold">Gold</option>
+          </select>
+          <button type="submit">Join Now</button>
+        </form>
+      </section>
+      <section>
+        <h2>Featured Campaigns</h2>
+        <div id="events-container" class="spotlight-container"></div>
+      </section>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; <span id="currentyear"></span> Pietro Motta Madril</p>
+    <p><span id="lastModified"></span></p>
+  </footer>
+</body>
+</html>

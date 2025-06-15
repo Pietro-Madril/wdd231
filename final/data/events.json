@@ -1,0 +1,67 @@
+{
+  "events": [
+  {
+    "name": "Percidias",
+    "dungeonmaster": "Auron of Grancidea",
+    "startingdate": "5th of July",
+    "system": "Tormenta 20",
+    "icon": "t20.jpg",
+    "membership": "Gold",
+    "about": "A mystery haunts the lands of Percidias, a world abandoned to its fate and filled with dangers born from ancient legends. Five adventurers, brought to this forgotten land, seek to uncover what the Crimson Storms fear the most."
+  },
+  {
+    "name": "Ashen Valley",
+    "dungeonmaster": "Selene Starshade",
+    "startingdate": "20th of June",
+    "system": "Dungeons & Dragons 5e",
+    "icon": "dnd.jpg",
+    "membership": "Silver",
+    "about": "Once a fertile valley, Ashen now lies in shadows, cursed by an ancient pact. A group of unlikely heroes must uncover the source of the blight before the land is lost forever."
+  },
+  {
+    "name": "Echoes of Elaris",
+    "dungeonmaster": "Thorne Ironsoul",
+    "startingdate": "1st of August",
+    "system": "Pathfinder 2e",
+    "icon": "path.png",
+    "membership": "Gold",
+    "about": "In the shattered ruins of the elven kingdom of Elaris, whispers of a forgotten magic echo through the trees. A team of brave souls dares to walk the paths of ancient power, risking everything to restore the legacy of the First Elves."
+  },
+  {
+    "name": "The Hollow Throne",
+    "dungeonmaster": "Mira Ravensong",
+    "startingdate": "12th of July",
+    "system": "Tormenta 20",
+    "icon": "t20.jpg",
+    "membership": "Bronze",
+    "about": "With the king assassinated and no heir in sight, the kingdom teeters on the brink of civil war. As chaos brews, a forgotten prophecy awakens and the Hollow Throne awaits its rightful ruler."
+  },
+  {
+    "name": "Nightfall in Drakemor",
+    "dungeonmaster": "Kael the Red",
+    "startingdate": "28th of June",
+    "system": "Dungeons & Dragons 5e",
+    "icon": "dnd.jpg",
+    "membership": "Silver",
+    "about": "Darkness creeps across the realm as a forgotten dragon cult stirs beneath the city of Drakemor. A band of adventurers must descend into the catacombs and confront what lies beneath before night falls forever."
+  },
+  {
+    "name": "Crimson Seas",
+    "dungeonmaster": "Captain Veyra Stormborn",
+    "startingdate": "15th of July",
+    "system": "Dungeons & Dragons 5e",
+    "icon": "dnd.jpg",
+    "membership": "Gold",
+    "about": "Set sail on the treacherous Crimson Seas, where ghost ships roam and treasure maps bleed. A fearless crew must chart a course through myth and betrayal in search of the Sea King's Crown."
+  },
+  {
+    "name": "Wyrmwatch Bastion",
+    "dungeonmaster": "Darian Flameshield",
+    "startingdate": "3rd of August",
+    "system": "Pathfinder 2e",
+    "icon": "path.png",
+    "membership": "Bronze",
+    "about": "The mountain stronghold of Wyrmwatch stands as the last defense against an ancient dragon awakening. A group of defenders must rise and hold the line — or watch the world burn in dragonfire."
+  }
+]
+}
